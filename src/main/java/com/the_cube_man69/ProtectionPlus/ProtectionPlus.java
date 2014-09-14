@@ -1,9 +1,11 @@
 package com.the_cube_man69.ProtectionPlus;
 
 import com.the_cube_man69.ProtectionPlus.handler.ConfigurationHandler;
+import com.the_cube_man69.ProtectionPlus.init.ModItems;
 import com.the_cube_man69.ProtectionPlus.proxy.IProxy;
 import com.the_cube_man69.ProtectionPlus.reference.Reference;
 import com.the_cube_man69.ProtectionPlus.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -24,7 +26,11 @@ public class ProtectionPlus
     public void preInit(FMLPreInitializationEvent event)
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
         LogHelper.info("Pre Initialization Complete!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
