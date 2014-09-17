@@ -1,4 +1,4 @@
-package com.the_cube_man69.ProtectionPlus.client1.gui;
+package com.the_cube_man69.protectionplus.client1.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

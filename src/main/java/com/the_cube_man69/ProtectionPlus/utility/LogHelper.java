@@ -1,6 +1,6 @@
-package com.the_cube_man69.ProtectionPlus.utility;
+package com.the_cube_man69.protectionplus.utility;
 
-import com.the_cube_man69.ProtectionPlus.reference.Reference;
+import com.the_cube_man69.protectionplus.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
@@ -8,7 +8,7 @@ public class LogHelper
 {
     public static void log(Level logLevel, Object object)
     {
-        FMLLog.log(Reference.Mod_Name, logLevel, String.valueOf(object));
+        FMLLog.log(Reference.MOD_Name, logLevel, String.valueOf(object));
     }
 
     public static void all(Object object)
