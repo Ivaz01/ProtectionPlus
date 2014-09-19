@@ -9,6 +9,6 @@ public class Recipes
 {
     public static void init()
     {
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeather), "lsc", " ", " ", 'l', new ItemStack(Items.leather), 's', new ItemStack(Items.slime_ball), 'c', new ItemStack(Blocks.cactus));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeather, 2),"lsc", "lsc", "lsc", 'l', new ItemStack(Items.leather), 's', Items.slime_ball, 'c', Blocks.cactus);
     }
 }

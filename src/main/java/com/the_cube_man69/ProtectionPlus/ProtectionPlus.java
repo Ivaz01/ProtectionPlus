@@ -7,17 +7,20 @@ import com.the_cube_man69.protectionplus.init.Recipes;
 import com.the_cube_man69.protectionplus.proxy.IProxy;
 import com.the_cube_man69.protectionplus.reference.Reference;
 import com.the_cube_man69.protectionplus.utility.LogHelper;
+import com.the_cube_man69.protectionplus.world.ProPlusWorld;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 
 
 @Mod(modid= Reference.MOD_ID, name= Reference.MOD_Name, version= Reference.Version, guiFactory =  Reference.GUI_FACTORY_CLASS)
 public class ProtectionPlus
 {
+
     @Mod.Instance(Reference.MOD_ID)
     public static ProtectionPlus instance;
 
@@ -35,6 +38,8 @@ public class ProtectionPlus
         ModItems.init();
 
         ModBlocks.init();
+
+        ProPlusWorld.ProtectionPlus();
     }
 
     @Mod.EventHandler
