@@ -17,6 +17,7 @@ public class ItemProPlus extends Item
     {
         super();
         this.setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        this.setMaxStackSize(64);
     }
 
     @Override

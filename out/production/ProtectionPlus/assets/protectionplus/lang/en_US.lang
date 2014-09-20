@@ -1,3 +1,7 @@
 item.protectionplus:cactusLeather.name=Cactus Leather
+item.protectionplus:copperIngot.name=Copper Ingot
+
 tile.protectionplus:potatoOre.name=Potato Ore
+tile.protectionplus:copperOre.name=Copper Ore
+
 itemGroup.protectionplus=Protection Plus

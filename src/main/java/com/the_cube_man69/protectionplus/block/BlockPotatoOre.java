@@ -1,6 +1,5 @@
 package com.the_cube_man69.protectionplus.block;
 
-import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.world.IBlockAccess;
@@ -22,7 +21,7 @@ public class BlockPotatoOre extends BlockProPlus
         return Items.potato;
     }
     public int quantityDropped(Random rand){
-        return rand.nextInt(3) + 1;
+        return rand.nextInt(5) + 2;
     }
     private Random rand = new Random();
     @Override
