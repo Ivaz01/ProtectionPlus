@@ -1,7 +1,12 @@
 item.protectionplus:cactusLeather.name=Cactus Leather
 item.protectionplus:copperIngot.name=Copper Ingot
 item.protectionplus:tinIngot.name=Tin Ingot
-item.protectionplus:bronzeIngot.name=bronze Ingot
+item.protectionplus:bronzeIngot.name=Bronze Ingot
+item.protectionplus:BronzeSword.name=Bronze Sword
+item.protectionplus:BronzePickAxe.name=Bronze PickAxe
+item.protectionplus:BronzeAxe.name=Bronze Axe
+item.protectionplus:BronzeShovel.name=Bronze Shovel
+item.protectionplus:BronzeHoe.name=Bronze Hoe
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore
