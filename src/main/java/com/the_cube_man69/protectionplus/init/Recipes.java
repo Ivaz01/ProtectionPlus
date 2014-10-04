@@ -12,7 +12,11 @@ public class Recipes
     {
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeather, 2),"lsc", "lsc", "lsc", 'l', new ItemStack(Items.leather), 's', Items.slime_ball, 'c', Blocks.cactus);
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.bronzeIngot, 4), new ItemStack(ModItems.tinIngot), new ItemStack(ModItems.copperIngot), new ItemStack(ModItems.copperIngot), new ItemStack(ModItems.copperIngot)));
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzeSword),"bbb", "s", "s", 'b', new ItemStack(ModItems.bronzeIngot), 's', Items.stick);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzePickAxe), "bbb", " s ", " s ", 'b', new ItemStack(ModItems.bronzeIngot), 's', Items.stick);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzeAxe), "bb ", "bs ", " s ", 'b', new ItemStack(ModItems.bronzeIngot), 's', Items.stick);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzeShovel), "b", "s", "s", 'b', new ItemStack(ModItems.bronzeIngot), 's', Items.stick);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzeSword), "b", "b", "s", 'b', new ItemStack(ModItems.bronzeIngot), 's', Items.stick);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzeHoe), "mm ", " d ", " d ", 'm', new ItemStack(ModItems.bronzeIngot), 'd', Items.stick);
 
         GameRegistry.addSmelting(new ItemStack(ModBlocks.copperOre), new ItemStack(ModItems.copperIngot), (float) 0.3);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.tinOre), new ItemStack(ModItems.tinIngot), (float) 0.3);
