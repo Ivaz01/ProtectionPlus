@@ -21,24 +21,25 @@ public class ItemBronzeArmor extends ItemArmor
     {
         if(stack.getItem().equals(ModItems.bronzeHelmet)|| stack.getItem().equals(ModItems.bronzeChestPlate)|| stack.getItem().equals(ModItems.bronzeBoots))
         {
-            return "protectionplus:textures/bronze_1.png";
+            return "protectionplus:textures/armor/bronze_1.png";
         }
 
         if(stack.getItem().equals(ModItems.bronzeLeggings));
         {
-            return "protectionplus:textures/bronze_2.png";
+            return "protectionplus:textures/armor/bronze_2.png";
         }
     }
 
     @Override
-    public void registerIcons(IIconRegister reg){
+    public void registerIcons(IIconRegister reg)
+    {
         if(this == ModItems.bronzeHelmet)
-            this.itemIcon = reg.registerIcon("protectionplus:bronzeHelmet");
+                this.itemIcon = reg.registerIcon("protectionplus:bronzeHelmet");
         if(this == ModItems.bronzeChestPlate)
-            this.itemIcon = reg.registerIcon("protectionplus:bronzeChestPlate");
+                this.itemIcon = reg.registerIcon("protectionplus:bronzeChestPlate");
         if(this == ModItems.bronzeLeggings)
-            this.itemIcon = reg.registerIcon("protectionplus:bronzeLeggings");
+                this.itemIcon = reg.registerIcon("protectionplus:bronzeLeggings");
         if(this == ModItems.bronzeBoots)
-            this.itemIcon = reg.registerIcon("protectionplus:Boots");
+                this.itemIcon = reg.registerIcon("protectionplus:bronzeBoots");
     }
 }

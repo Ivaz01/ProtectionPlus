@@ -1,32 +1,28 @@
-[20:47:56] [main/INFO]: Logging in with username & password
-[20:48:00] [main/INFO]: Setting user: the_cube_man69
-[20:48:01] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:48:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:48:10] [Sound Library Loader/INFO]: Sound engine started
-[20:48:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:48:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:48:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:48:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:48:12] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:48:13] [Sound Library Loader/INFO]: Sound engine started
-[20:48:20] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:48:20] [Server thread/INFO]: Generating keypair
-[20:48:21] [Server thread/INFO]: Preparing start region for level 0
-[20:48:22] [Server thread/INFO]: Changing view distance to 8, from 10
-[20:48:22] [Server thread/INFO]: the_cube_man69[local:E:4986d9b4] logged in with entity id 95 at (-860.715313186374, 5.0, -496.2086342261125)
-[20:48:22] [Server thread/INFO]: the_cube_man69 joined the game
-[20:48:32] [Server thread/INFO]: Saving and pausing game...
-[20:48:32] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:48:32] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:48:32] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:48:34] [Server thread/INFO]: Saving and pausing game...
-[20:48:34] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:48:34] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:48:34] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:48:35] [Server thread/INFO]: Stopping server
-[20:48:35] [Server thread/INFO]: Saving players
-[20:48:35] [Server thread/INFO]: Saving worlds
-[20:48:35] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:48:35] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:48:35] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:48:36] [Client thread/INFO]: Stopping!
+[01:01:19] [main/INFO]: Logging in with username & password
+[01:01:23] [main/INFO]: Setting user: the_cube_man69
+[01:01:24] [Client thread/INFO]: LWJGL Version: 2.9.1
+[01:01:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[01:01:33] [Sound Library Loader/INFO]: Sound engine started
+[01:01:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:01:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:01:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[01:01:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[01:01:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[01:01:36] [Sound Library Loader/INFO]: Sound engine started
+[01:01:43] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[01:01:43] [Server thread/INFO]: Generating keypair
+[01:01:43] [Server thread/INFO]: Preparing start region for level 0
+[01:01:44] [Server thread/INFO]: Changing view distance to 8, from 10
+[01:01:45] [Server thread/INFO]: the_cube_man69[local:E:f406cd91] logged in with entity id 94 at (-880.8240611700436, 5.375676180687171, -483.76052711168825)
+[01:01:45] [Server thread/INFO]: the_cube_man69 joined the game
+[01:02:15] [Server thread/INFO]: Saving and pausing game...
+[01:02:15] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[01:02:15] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[01:02:15] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[01:02:19] [Server thread/INFO]: Stopping server
+[01:02:19] [Server thread/INFO]: Saving players
+[01:02:19] [Server thread/INFO]: Saving worlds
+[01:02:19] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[01:02:19] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[01:02:19] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[01:02:42] [Client thread/INFO]: Stopping!

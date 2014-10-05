@@ -72,5 +72,4 @@ public class ModItems
         GameRegistry.registerItem(bronzeLeggings, "bronzeLeggings");
         GameRegistry.registerItem(bronzeBoots, "bronzeBoots");
     }
-
 }

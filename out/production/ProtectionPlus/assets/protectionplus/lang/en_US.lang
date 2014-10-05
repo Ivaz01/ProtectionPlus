@@ -7,6 +7,10 @@ item.protectionplus:BronzePickAxe.name=Bronze PickAxe
 item.protectionplus:BronzeAxe.name=Bronze Axe
 item.protectionplus:BronzeShovel.name=Bronze Shovel
 item.protectionplus:BronzeHoe.name=Bronze Hoe
+item.bronzeHelmet.name=Bronze Helmet
+item.bronzeChestPlate.name=Bronze Chestplate
+item.bronzeLeggings.name=Bronze Leggings
+item.bronzeBoots.name=Bronze Boots
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore

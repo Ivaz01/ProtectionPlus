@@ -35,7 +35,7 @@ public class ProtectionPlus
 
         LogHelper.info("Pre Initialization Complete!");
 
-        ModItems.init();
+        ModItems.mainRegistry();
 
         ModBlocks.init();
 
