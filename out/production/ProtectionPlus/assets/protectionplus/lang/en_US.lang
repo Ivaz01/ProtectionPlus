@@ -8,9 +8,13 @@ item.protectionplus:BronzeAxe.name=Bronze Axe
 item.protectionplus:BronzeShovel.name=Bronze Shovel
 item.protectionplus:BronzeHoe.name=Bronze Hoe
 item.bronzeHelmet.name=Bronze Helmet
-item.bronzeChestPlate.name=Bronze Chestplate
+item.:bronzeChestPlate.name=Bronze Chestplate
 item.bronzeLeggings.name=Bronze Leggings
 item.bronzeBoots.name=Bronze Boots
+item.cactusLeatherHelmet.name=Cactus Leather Helmet
+item.cactusLeatherChestPlate.name=Cactus Leather Chestplate
+item.cactusLeatherLeggings.name=Cactus Leather Leggings
+item.cactusLeatherBoots.name=Cactus Leather Boots
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore

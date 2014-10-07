@@ -35,11 +35,16 @@ public class ModItems
     public static Item bronzeChestPlate;
     public static Item bronzeLeggings;
     public static Item bronzeBoots;
+    public static Item cactusLeatherHelmet;
+    public static Item cactusLeatherChestPlate;
+    public static Item cactusLeatherLeggings;
+    public static Item cactusLeatherBoots;
 
     public static void initItems()
     {
 
         RenderingRegistry.addNewArmourRendererPrefix("5");
+        RenderingRegistry.addNewArmourRendererPrefix("6");
 
         cactusLeather= new ItemCactusLeather();
         copperIngot = new ItemCopperIngot();
@@ -50,10 +55,14 @@ public class ModItems
         bronzeAxe = new ItemBronzeAxe(enumToolMaterialBronze);
         bronzeShovel = new ItemBronzeShovel(enumToolMaterialBronze);
         bronzeHoe = new ItemBronzeHoe(enumToolMaterialBronze);
-        bronzeHelmet = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 0).setUnlocalizedName("bronzeHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeChestPlate = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 1).setUnlocalizedName("bronzeChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeLeggings = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 2).setUnlocalizedName("bronzeLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeBoots = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 3).setUnlocalizedName("bronzeBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        bronzeHelmet = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 0).setUnlocalizedName("bronzeHelmet").setTextureName("protectionplus:bronzeHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        bronzeChestPlate = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 1).setUnlocalizedName("bronzeChestPlate").setTextureName("protectionplus:bronzeChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        bronzeLeggings = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 2).setUnlocalizedName("bronzeLeggings").setTextureName("protectionplus:bronzeLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        bronzeBoots = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 3).setUnlocalizedName("bronzeBoots").setTextureName("portectionplus:bronzeBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        cactusLeatherHelmet = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.IRON,6,0).setUnlocalizedName("cactusLeatherHelmet").setTextureName("protectionplus:cactusLeatherHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        cactusLeatherChestPlate = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.IRON,6,1).setUnlocalizedName("cactusLeatherChestPlate").setTextureName("protectionplus:cactusLeatherChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        cactusLeatherLeggings = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.IRON,6,2).setUnlocalizedName("cactusLeatherLeggings").setTextureName("protectionplus:cactusLeatherLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        cactusLeatherBoots = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.IRON,6,3).setUnlocalizedName("cactusLeatherBoots").setTextureName("protectionplus:cactusLeatherBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
     }
 
     public static void registerItems()
@@ -71,5 +80,9 @@ public class ModItems
         GameRegistry.registerItem(bronzeChestPlate, "bronzeChestPlate");
         GameRegistry.registerItem(bronzeLeggings, "bronzeLeggings");
         GameRegistry.registerItem(bronzeBoots, "bronzeBoots");
+        GameRegistry.registerItem(cactusLeatherHelmet, "cactusLeatherHelmet");
+        GameRegistry.registerItem(cactusLeatherChestPlate, "cactusLeatherChestPlate");
+        GameRegistry.registerItem(cactusLeatherLeggings, "cactusLeatherLeggings");
+        GameRegistry.registerItem(cactusLeatherBoots, "cactusLeatherBoots");
     }
 }

@@ -1,5 +1,6 @@
 package com.the_cube_man69.protectionplus.init;
 
+import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -21,6 +22,10 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeChestPlate), "b b", "bbb", "bbb", 'b', new ItemStack(ModItems.bronzeIngot)));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeLeggings), "bbb", "b b", "b b", 'b', new ItemStack(ModItems.bronzeIngot)));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeBoots), "b b", "b b", "   ", 'b', new ItemStack(ModItems.bronzeIngot)));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherHelmet), "ccc", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherChestPlate), "c c", "ccc", "ccc", 'c', new ItemStack(ModItems.cactusLeather));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherLeggings), "ccc", "c c", "c c", 'c', new ItemStack(ModItems.cactusLeather));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherBoots), "c c", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather));
 
         GameRegistry.addSmelting(new ItemStack(ModBlocks.copperOre), new ItemStack(ModItems.copperIngot), (float) 0.3);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.tinOre), new ItemStack(ModItems.tinIngot), (float) 0.3);
