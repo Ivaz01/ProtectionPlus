@@ -22,8 +22,8 @@ public class Recipes
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeChestPlate), "b b", "bbb", "bbb", 'b', new ItemStack(ModItems.bronzeIngot)));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeLeggings), "bbb", "b b", "b b", 'b', new ItemStack(ModItems.bronzeIngot)));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.bronzeBoots), "b b", "b b", "   ", 'b', new ItemStack(ModItems.bronzeIngot)));
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherHelmet), "ccc", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherChestPlate), "c c", "ccc", "ccc", 'c', new ItemStack(ModItems.cactusLeather));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherHelmet), "ccc", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherLeggings), "ccc", "c c", "c c", 'c', new ItemStack(ModItems.cactusLeather));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.cactusLeatherBoots), "c c", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather));
 
