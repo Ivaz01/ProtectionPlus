@@ -13,9 +13,10 @@ import net.minecraftforge.common.util.EnumHelper;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
-    public static Item.ToolMaterial enumToolMaterialBronze = EnumHelper.addToolMaterial("Bronze", 2, 150, 4.5F, 1.0F, 9);
+    public static Item.ToolMaterial enumToolMaterialBronze = EnumHelper.addToolMaterial("Bronze", 2, 200, 4.5F, 1.0F, 9);
     public static ItemArmor.ArmorMaterial enumArmorMaterialBronze = EnumHelper.addArmorMaterial("bronze", 12, new int[] {2, 6, 5, 2}, 9);
     public static ItemArmor.ArmorMaterial enumArmorMaterialObsidian = EnumHelper.addArmorMaterial("obsidian", 40, new int[] {3, 9, 7, 3}, 3);
+    public static Item.ToolMaterial enumToolMaterialObsidian = EnumHelper.addToolMaterial("obsidian", 4, 2000, 3F, 4.5F, 30);
 
     public static void mainRegistry()
     {
@@ -44,6 +45,11 @@ public class ModItems
     public static Item obsidianChestPlate;
     public static Item obsidianLeggings;
     public static Item obsidianBoots;
+    public static Item obsidianSword;
+    public static Item obsidianPickAxe;
+    public static Item obsidianShovel;
+    public static Item obsidianAxe;
+    public static Item obsidianHoe;
 
     public static void initItems()
     {
@@ -73,6 +79,11 @@ public class ModItems
         obsidianChestPlate = new ItemObsidianArmor(enumArmorMaterialObsidian,7,1).setUnlocalizedName("obsidianChestPlate").setTextureName("protectionplus:obsidianChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
         obsidianLeggings = new ItemObsidianArmor(enumArmorMaterialObsidian,7,2).setUnlocalizedName("obsidianLeggings").setTextureName("protectionplus:obsidianLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
         obsidianBoots = new ItemObsidianArmor(enumArmorMaterialObsidian,7,3).setUnlocalizedName("obsidianBoots").setTextureName("protectionplus:obsidianBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        obsidianSword = new ItemObsidianSword(enumToolMaterialObsidian);
+        obsidianPickAxe = new ItemObsidianPickAxe(enumToolMaterialObsidian);
+        obsidianShovel = new ItemObsidianShovel(enumToolMaterialObsidian);
+        obsidianAxe = new ItemObsidianAxe(enumToolMaterialObsidian);
+        obsidianHoe = new ItemObsidianHoe(enumToolMaterialObsidian);
     }
 
     public static void registerItems()
@@ -98,5 +109,10 @@ public class ModItems
         GameRegistry.registerItem(obsidianChestPlate, "obsidianChestPlate");
         GameRegistry.registerItem(obsidianLeggings, "obsidianLeggings");
         GameRegistry.registerItem(obsidianBoots, "obsidianBoots");
+        GameRegistry.registerItem(obsidianSword, "obsidianSword");
+        GameRegistry.registerItem(obsidianPickAxe, "obsidianPickAxe");
+        GameRegistry.registerItem(obsidianShovel, "obsidianShovel");
+        GameRegistry.registerItem(obsidianAxe, "obsidianAxe");
+        GameRegistry.registerItem(obsidianHoe, "obsidianHoe");
     }
 }

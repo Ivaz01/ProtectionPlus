@@ -33,17 +33,21 @@ public class ItemObsidianArmor extends ItemArmor
         }
     }
 
-    @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack stack)
     {
-        if(stack.getItem() == ModItems.obsidianBoots)
-        if(stack.getItem() == ModItems.obsidianLeggings)
-        if(stack.getItem() == ModItems.obsidianChestPlate)
-        if(stack.getItem() == ModItems.obsidianHelmet)
+        if(player.getCurrentArmor(3) != null && player.getCurrentArmor(2) != null && player.getCurrentArmor(1) != null && player.getCurrentArmor(0) != null)
         {
-            player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 10));
-            player.addPotionEffect(new PotionEffect(Potion.nightVision.getId(), 1));
-            player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 10));
+            ItemStack helmet = player.getCurrentArmor(3);
+            ItemStack plate = player.getCurrentArmor(2);
+            ItemStack leggings = player.getCurrentArmor(1);
+            ItemStack boots = player.getCurrentArmor(0);
+            if(helmet.getItem() == ModItems.obsidianHelmet && plate.getItem() == ModItems.obsidianChestPlate && leggings.getItem() == ModItems.obsidianLeggings && boots.getItem() == ModItems.obsidianBoots)
+            {
+                player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 100, 2));
+                player.addPotionEffect(new PotionEffect(Potion.nightVision.getId(), 300, 0));
+                player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 100, 2));
+            }
+
     }   }
 }
 

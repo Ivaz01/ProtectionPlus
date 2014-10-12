@@ -1,28 +1,37 @@
-[22:09:50] [main/INFO]: Logging in with username & password
-[22:09:54] [main/INFO]: Setting user: the_cube_man69
-[22:09:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:10:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[22:10:04] [Sound Library Loader/INFO]: Sound engine started
-[22:10:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:10:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:10:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[22:10:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:10:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:10:06] [Sound Library Loader/INFO]: Sound engine started
-[22:10:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:10:14] [Server thread/INFO]: Generating keypair
-[22:10:15] [Server thread/INFO]: Preparing start region for level 0
-[22:10:16] [Server thread/INFO]: Changing view distance to 8, from 10
-[22:10:16] [Server thread/INFO]: the_cube_man69[local:E:e19b8a1a] logged in with entity id 97 at (-888.3565487796607, 4.0, -480.1029881961847)
-[22:10:16] [Server thread/INFO]: the_cube_man69 joined the game
-[22:10:30] [Server thread/INFO]: Saving and pausing game...
-[22:10:30] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[22:10:30] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[22:10:30] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[22:10:31] [Server thread/INFO]: Stopping server
-[22:10:31] [Server thread/INFO]: Saving players
-[22:10:31] [Server thread/INFO]: Saving worlds
-[22:10:31] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[22:10:31] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[22:10:31] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[22:10:31] [Client thread/INFO]: Stopping!
+[22:56:21] [main/INFO]: Logging in with username & password
+[22:56:25] [main/INFO]: Setting user: the_cube_man69
+[22:56:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:56:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[22:56:34] [Sound Library Loader/INFO]: Sound engine started
+[22:56:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:56:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:56:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[22:56:36] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:56:37] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:56:38] [Sound Library Loader/INFO]: Sound engine started
+[22:56:45] [Client thread/INFO]: Deleting level New World
+[22:56:45] [Client thread/INFO]: Attempt 1...
+[22:56:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:56:47] [Server thread/INFO]: Generating keypair
+[22:56:47] [Server thread/INFO]: Preparing start region for level 0
+[22:56:48] [Server thread/INFO]: Changing view distance to 8, from 10
+[22:56:49] [Server thread/INFO]: the_cube_man69[local:E:2ce2cde1] logged in with entity id 87 at (-920.230533760085, 4.0, -433.8783706836433)
+[22:56:49] [Server thread/INFO]: the_cube_man69 joined the game
+[22:56:49] [Server thread/INFO]: Saving and pausing game...
+[22:56:49] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[22:56:49] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[22:56:49] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[22:57:21] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[22:57:23] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[22:57:23] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[22:57:41] [Server thread/INFO]: Saving and pausing game...
+[22:57:41] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[22:57:41] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[22:57:41] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[22:57:42] [Server thread/INFO]: Stopping server
+[22:57:42] [Server thread/INFO]: Saving players
+[22:57:42] [Server thread/INFO]: Saving worlds
+[22:57:42] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[22:57:42] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[22:57:42] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[22:57:43] [Client thread/INFO]: Stopping!

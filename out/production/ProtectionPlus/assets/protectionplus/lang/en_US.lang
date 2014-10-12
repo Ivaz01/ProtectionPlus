@@ -7,6 +7,12 @@ item.protectionplus:BronzePickAxe.name=Bronze PickAxe
 item.protectionplus:BronzeAxe.name=Bronze Axe
 item.protectionplus:BronzeShovel.name=Bronze Shovel
 item.protectionplus:BronzeHoe.name=Bronze Hoe
+item.protectionplus:obsidianSword.name=Obsidian Sword
+item.protectionplus:obsidianPickAxe.name=Obsidian Pickaxe
+item.protectionplus:obsidianShovel.name=Obsidian Shovel
+item.protectionplus:obsidianAxe.name=Obsidian Axe
+item.protectionplus:obsidianHoe.name=Obsidian Hoe
+
 item.bronzeHelmet.name=Bronze Helmet
 item.:bronzeChestPlate.name=Bronze Chestplate
 item.bronzeLeggings.name=Bronze Leggings
@@ -15,9 +21,14 @@ item.cactusLeatherHelmet.name=Cactus Leather Helmet
 item.cactusLeatherChestPlate.name=Cactus Leather Chestplate
 item.cactusLeatherLeggings.name=Cactus Leather Leggings
 item.cactusLeatherBoots.name=Cactus Leather Boots
+item.obsidianHelmet.name=Obsidian Helmet
+item.obsidianChestPlate.name=Obsidian Chestplate
+item.obsidianLeggings.name=Obsidian Leggings
+item.obsidianBoots.name=Obsidian Boots
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore
 tile.protectionplus:tinOre.name=Tin Ore
+tile.protectionplus:badRock.name=BADROCK
 
 itemGroup.protectionplus=Protection Plus
