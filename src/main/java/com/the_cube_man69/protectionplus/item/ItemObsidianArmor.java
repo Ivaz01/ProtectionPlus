@@ -1,5 +1,6 @@
 package com.the_cube_man69.protectionplus.item;
 
+import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.init.ModItems;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
@@ -17,6 +18,7 @@ public class ItemObsidianArmor extends ItemArmor
     public ItemObsidianArmor(ArmorMaterial armorMaterial, int renderIndex, int armourType)
     {
         super(armorMaterial, renderIndex, armourType);
+        this.setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
     }
 
     @Override
@@ -33,6 +35,19 @@ public class ItemObsidianArmor extends ItemArmor
         }
     }
 
+    @Override
+    public void registerIcons(IIconRegister reg)
+    {
+        if(this == ModItems.obsidianHelmet)
+            this.itemIcon = reg.registerIcon("protectionplus:obsidianHelmet");
+        if(this == ModItems.obsidianChestPlate)
+            this.itemIcon = reg.registerIcon("protectionplus:obsidianChestPlate");
+        if(this == ModItems.obsidianLeggings)
+            this.itemIcon = reg.registerIcon("protectionplus:obsidianLeggings");
+        if(this == ModItems.obsidianBoots)
+            this.itemIcon = reg.registerIcon("protectionplus:obsidianBoots");
+    }
+
     public void onArmorTick(World world, EntityPlayer player, ItemStack stack)
     {
         if(player.getCurrentArmor(3) != null && player.getCurrentArmor(2) != null && player.getCurrentArmor(1) != null && player.getCurrentArmor(0) != null)
@@ -41,13 +56,13 @@ public class ItemObsidianArmor extends ItemArmor
             ItemStack plate = player.getCurrentArmor(2);
             ItemStack leggings = player.getCurrentArmor(1);
             ItemStack boots = player.getCurrentArmor(0);
-            if(helmet.getItem() == ModItems.obsidianHelmet && plate.getItem() == ModItems.obsidianChestPlate && leggings.getItem() == ModItems.obsidianLeggings && boots.getItem() == ModItems.obsidianBoots)
+            if (helmet.getItem() == ModItems.obsidianHelmet && plate.getItem() == ModItems.obsidianChestPlate && leggings.getItem() == ModItems.obsidianLeggings && boots.getItem() == ModItems.obsidianBoots)
             {
                 player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 100, 2));
                 player.addPotionEffect(new PotionEffect(Potion.nightVision.getId(), 300, 0));
                 player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 100, 2));
             }
-
-    }   }
+        }
+    }
 }
 

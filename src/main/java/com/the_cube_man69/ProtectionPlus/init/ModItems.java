@@ -15,8 +15,11 @@ public class ModItems
 {
     public static Item.ToolMaterial enumToolMaterialBronze = EnumHelper.addToolMaterial("Bronze", 2, 200, 4.5F, 1.0F, 9);
     public static ItemArmor.ArmorMaterial enumArmorMaterialBronze = EnumHelper.addArmorMaterial("bronze", 12, new int[] {2, 6, 5, 2}, 9);
-    public static ItemArmor.ArmorMaterial enumArmorMaterialObsidian = EnumHelper.addArmorMaterial("obsidian", 40, new int[] {3, 9, 7, 3}, 3);
+
+    public static ItemArmor.ArmorMaterial enumArmorMaterialObsidian = EnumHelper.addArmorMaterial("obsidian", 40, new int[] {4, 10, 8, 4}, 3);
     public static Item.ToolMaterial enumToolMaterialObsidian = EnumHelper.addToolMaterial("obsidian", 4, 2000, 3F, 4.5F, 30);
+
+    public static ItemArmor.ArmorMaterial enumArmorMaterialBADROCK = EnumHelper.addArmorMaterial("BADROCK", 60, new int[] {5, 9, 8, 5}, 99);
 
     public static void mainRegistry()
     {
@@ -50,6 +53,10 @@ public class ModItems
     public static Item obsidianShovel;
     public static Item obsidianAxe;
     public static Item obsidianHoe;
+    public static Item badRockHelmet;
+    public static Item badRockChestPlate;
+    public static Item badRockLeggings;
+    public static Item badRockBoots;
 
     public static void initItems()
     {
@@ -57,6 +64,7 @@ public class ModItems
         RenderingRegistry.addNewArmourRendererPrefix("5");
         RenderingRegistry.addNewArmourRendererPrefix("6");
         RenderingRegistry.addNewArmourRendererPrefix("7");
+        RenderingRegistry.addNewArmourRendererPrefix("8");
 
         cactusLeather= new ItemCactusLeather();
         copperIngot = new ItemCopperIngot();
@@ -67,23 +75,29 @@ public class ModItems
         bronzeAxe = new ItemBronzeAxe(enumToolMaterialBronze);
         bronzeShovel = new ItemBronzeShovel(enumToolMaterialBronze);
         bronzeHoe = new ItemBronzeHoe(enumToolMaterialBronze);
-        bronzeHelmet = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 0).setUnlocalizedName("bronzeHelmet").setTextureName("protectionplus:bronzeHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeChestPlate = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 1).setUnlocalizedName("bronzeChestPlate").setTextureName("protectionplus:bronzeChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeLeggings = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 2).setUnlocalizedName("bronzeLeggings").setTextureName("protectionplus:bronzeLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        bronzeBoots = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 3).setUnlocalizedName("bronzeBoots").setTextureName("portectionplus:bronzeBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        cactusLeatherHelmet = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CLOTH,6,0).setUnlocalizedName("cactusLeatherHelmet").setTextureName("protectionplus:cactusLeatherHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        cactusLeatherChestPlate = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CLOTH,6,1).setUnlocalizedName("cactusLeatherChestPlate").setTextureName("protectionplus:cactusLeatherChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        cactusLeatherLeggings = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CLOTH,6,2).setUnlocalizedName("cactusLeatherLeggings").setTextureName("protectionplus:cactusLeatherLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        cactusLeatherBoots = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CLOTH,6,3).setUnlocalizedName("cactusLeatherBoots").setTextureName("protectionplus:cactusLeatherBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        obsidianHelmet = new ItemObsidianArmor(enumArmorMaterialObsidian,7,0).setUnlocalizedName("obsidianHelmet").setTextureName("protectionplus:obsidianHelmet").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        obsidianChestPlate = new ItemObsidianArmor(enumArmorMaterialObsidian,7,1).setUnlocalizedName("obsidianChestPlate").setTextureName("protectionplus:obsidianChestPlate").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        obsidianLeggings = new ItemObsidianArmor(enumArmorMaterialObsidian,7,2).setUnlocalizedName("obsidianLeggings").setTextureName("protectionplus:obsidianLeggings").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
-        obsidianBoots = new ItemObsidianArmor(enumArmorMaterialObsidian,7,3).setUnlocalizedName("obsidianBoots").setTextureName("protectionplus:obsidianBoots").setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
+        bronzeHelmet = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 0).setUnlocalizedName("bronzeHelmet");
+        bronzeChestPlate = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 1).setUnlocalizedName("bronzeChestPlate");
+        bronzeLeggings = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 2).setUnlocalizedName("bronzeLeggings");
+        bronzeBoots = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 3).setUnlocalizedName("bronzeBoots");
+        cactusLeatherHelmet = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CHAIN,6,0).setUnlocalizedName("cactusLeatherHelmet");
+        cactusLeatherChestPlate = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CHAIN,6,1).setUnlocalizedName("cactusLeatherChestPlate");
+        cactusLeatherLeggings = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CHAIN,6,2).setUnlocalizedName("cactusLeatherLeggings");
+        cactusLeatherBoots = new ItemCactusLeatherArmor(ItemArmor.ArmorMaterial.CHAIN,6,3).setUnlocalizedName("cactusLeatherBoots");
+        obsidianHelmet = new ItemObsidianArmor(enumArmorMaterialObsidian,7,0).setUnlocalizedName("obsidianHelmet");
+        obsidianChestPlate = new ItemObsidianArmor(enumArmorMaterialObsidian,7,1).setUnlocalizedName("obsidianChestPlate");
+        obsidianLeggings = new ItemObsidianArmor(enumArmorMaterialObsidian,7,2).setUnlocalizedName("obsidianLeggings");
+        obsidianBoots = new ItemObsidianArmor(enumArmorMaterialObsidian,7,3).setUnlocalizedName("obsidianBoots");
         obsidianSword = new ItemObsidianSword(enumToolMaterialObsidian);
         obsidianPickAxe = new ItemObsidianPickAxe(enumToolMaterialObsidian);
         obsidianShovel = new ItemObsidianShovel(enumToolMaterialObsidian);
         obsidianAxe = new ItemObsidianAxe(enumToolMaterialObsidian);
         obsidianHoe = new ItemObsidianHoe(enumToolMaterialObsidian);
+        badRockHelmet = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 0).setUnlocalizedName("badRockHelmet");
+        badRockChestPlate = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 1).setUnlocalizedName("badRockChestPlate");
+        badRockLeggings = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 2).setUnlocalizedName("badRockLeggings");
+        badRockBoots = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 3).setUnlocalizedName("badRockBoots");
+
+
     }
 
     public static void registerItems()
@@ -114,5 +128,9 @@ public class ModItems
         GameRegistry.registerItem(obsidianShovel, "obsidianShovel");
         GameRegistry.registerItem(obsidianAxe, "obsidianAxe");
         GameRegistry.registerItem(obsidianHoe, "obsidianHoe");
+        GameRegistry.registerItem(badRockHelmet, "badRockHelmet");
+        GameRegistry.registerItem(badRockChestPlate, "badRockChestPlate");
+        GameRegistry.registerItem(badRockLeggings, "badRockLeggings");
+        GameRegistry.registerItem(badRockBoots, "badRockBoots");
     }
 }

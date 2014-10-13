@@ -25,6 +25,10 @@ item.obsidianHelmet.name=Obsidian Helmet
 item.obsidianChestPlate.name=Obsidian Chestplate
 item.obsidianLeggings.name=Obsidian Leggings
 item.obsidianBoots.name=Obsidian Boots
+item.badRockHelmet.name=BADROCK Helmet
+item.badRockChestPlate.name=BADROCK Chestplate
+item.badRockLeggings.name=BADROCK Leggings
+item.badRockBoots.name=BADROCK Boots
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore

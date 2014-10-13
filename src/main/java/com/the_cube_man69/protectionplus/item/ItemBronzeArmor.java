@@ -1,5 +1,6 @@
 package com.the_cube_man69.protectionplus.item;
 
+import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.init.ModItems;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
@@ -14,6 +15,7 @@ public class ItemBronzeArmor extends ItemArmor
     public ItemBronzeArmor(ArmorMaterial armorMaterial, int renderIndex, int armourType)
     {
         super(armorMaterial, renderIndex, armourType);
+        this.setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
     }
 
     @Override
