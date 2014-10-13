@@ -7,7 +7,7 @@ public class BlockBadRock extends BlockProPlus
         super();
         this.setBlockName("badRock");
         this.setBlockTextureName("badRock");
-        this.setHardness(30);
+        this.setHardness(80);
         this.setStepSound(soundTypePiston);
         this.setHarvestLevel("pickaxe", 4);
     }
