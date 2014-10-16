@@ -1,11 +1,9 @@
 package com.the_cube_man69.protectionplus.init;
 
-import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.item.*;
 import com.the_cube_man69.protectionplus.reference.Reference;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraftforge.common.util.EnumHelper;
@@ -19,7 +17,8 @@ public class ModItems
     public static ItemArmor.ArmorMaterial enumArmorMaterialObsidian = EnumHelper.addArmorMaterial("obsidian", 40, new int[] {3, 8, 6, 4}, 3);
     public static Item.ToolMaterial enumToolMaterialObsidian = EnumHelper.addToolMaterial("obsidian", 4, 4000, 19F, 4.5F, 30);
 
-    public static ItemArmor.ArmorMaterial enumArmorMaterialBADROCK = EnumHelper.addArmorMaterial("BADROCK", 60, new int[] {5, 8, 6, 5}, 99);
+    public static ItemArmor.ArmorMaterial enumArmorMaterialBADROCK = EnumHelper.addArmorMaterial("BADROCK", 60, new int[] {6, 9, 8, 6}, 99);
+    public static Item.ToolMaterial enumToolMaterialBADROCK = EnumHelper.addToolMaterial("BADROCK", 5, 8000, 20F, 10F, 99);
 
     public static void mainRegistry()
     {
@@ -57,6 +56,11 @@ public class ModItems
     public static Item badRockChestPlate;
     public static Item badRockLeggings;
     public static Item badRockBoots;
+    public static Item badRockSword;
+    public static Item badRockPickAxe;
+    public static Item badRockShovel;
+    public static Item badRockAxe;
+    public static Item badRockHoe;
 
     public static void initItems()
     {
@@ -96,8 +100,11 @@ public class ModItems
         badRockChestPlate = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 1).setUnlocalizedName("badRockChestPlate");
         badRockLeggings = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 2).setUnlocalizedName("badRockLeggings");
         badRockBoots = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 3).setUnlocalizedName("badRockBoots");
-
-
+        badRockSword = new ItemBadRockSword(enumToolMaterialBADROCK);
+        badRockPickAxe = new ItemBadRockPickAxe(enumToolMaterialBADROCK);
+        badRockShovel = new ItemBadRockShovel(enumToolMaterialBADROCK);
+        badRockAxe = new ItemBadRockAxe(enumToolMaterialBADROCK);
+        badRockHoe = new ItemBadRockHoe(enumToolMaterialBADROCK);
     }
 
     public static void registerItems()
@@ -132,5 +139,10 @@ public class ModItems
         GameRegistry.registerItem(badRockChestPlate, "badRockChestPlate");
         GameRegistry.registerItem(badRockLeggings, "badRockLeggings");
         GameRegistry.registerItem(badRockBoots, "badRockBoots");
+        GameRegistry.registerItem(badRockSword, "badRockSword");
+        GameRegistry.registerItem(badRockPickAxe, "badRockPickAxe");
+        GameRegistry.registerItem(badRockShovel, "badRockShovel");
+        GameRegistry.registerItem(badRockAxe, "badRockAxe");
+        GameRegistry.registerItem(badRockHoe, "badRockHoe");
     }
 }

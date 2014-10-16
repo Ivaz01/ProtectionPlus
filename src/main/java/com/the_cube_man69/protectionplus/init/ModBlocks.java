@@ -11,6 +11,7 @@ public class ModBlocks
     public static final BlockProPlus copperOre = new BlockCopperOre();
     public static final BlockProPlus tinOre = new BlockTinOre();
     public static final BlockProPlus badRock = new BlockBadRock();
+    public static final BlockUnobtainium unobtainium = new BlockUnobtainium();
 
     public static void init()
     {
@@ -18,5 +19,6 @@ public class ModBlocks
         GameRegistry.registerBlock(copperOre, "copperOre");
         GameRegistry.registerBlock(tinOre, "tinOre");
         GameRegistry.registerBlock(badRock, "badRock");
+        GameRegistry.registerBlock(unobtainium, "unobtainium");
     }
 }

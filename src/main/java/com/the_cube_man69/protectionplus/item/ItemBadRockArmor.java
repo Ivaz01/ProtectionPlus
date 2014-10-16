@@ -4,8 +4,12 @@ import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.init.ModItems;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
 
 public class ItemBadRockArmor extends ItemArmor
 {
@@ -42,5 +46,23 @@ public class ItemBadRockArmor extends ItemArmor
             this.itemIcon = reg.registerIcon("protectionplus:badRockLeggings");
         if(this == ModItems.badRockBoots)
             this.itemIcon = reg.registerIcon("protectionplus:badRockBoots");
+    }
+
+    public void onArmorTick(World world, EntityPlayer player, ItemStack stack)
+    {
+        if(player.getCurrentArmor(3) != null && player.getCurrentArmor(2) != null && player.getCurrentArmor(1) != null && player.getCurrentArmor(0) != null)
+        {
+            ItemStack helmet = player.getCurrentArmor(3);
+            ItemStack plate = player.getCurrentArmor(2);
+            ItemStack leggings = player.getCurrentArmor(1);
+            ItemStack boots = player.getCurrentArmor(0);
+            if (helmet.getItem() == ModItems.badRockHelmet && plate.getItem() == ModItems.badRockChestPlate && leggings.getItem() == ModItems.badRockLeggings && boots.getItem() == ModItems.badRockBoots)
+            {
+                player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 100, 3));
+                player.addPotionEffect(new PotionEffect(Potion.digSlowdown.getId(), 300, 3));
+                player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 100, 4));
+                player.addPotionEffect(new PotionEffect(Potion.fireResistance.getId(), 30, 1));
+            }
+        }
     }
 }

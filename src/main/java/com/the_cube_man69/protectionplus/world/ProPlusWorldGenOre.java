@@ -60,6 +60,7 @@ public class ProPlusWorldGenOre implements IWorldGenerator
         addOre(ModBlocks.copperOre, Blocks.stone, random, world, chunkX, chunkZ, 40, 200, 10, 20, 30);
         addOre(ModBlocks.tinOre,Blocks.stone, random, world, chunkX, chunkZ, 40,200,10,20,30);
         addOre(ModBlocks.badRock,Blocks.bedrock,random, world, chunkX, chunkZ, 2, 5, 1, 10, 15);
+        addOre(ModBlocks.unobtainium,Blocks.lapis_ore,random, world, chunkX, chunkZ, 5, 15, 2, 4, 10);
     }
 
     private void generateNether(Random random, int chunkX, int i1, World world)

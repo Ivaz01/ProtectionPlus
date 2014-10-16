@@ -1,290 +1,42 @@
-[20:57:40] [main/INFO]: Logging in with username & password
-[20:57:44] [main/INFO]: Setting user: the_cube_man69
-[20:57:45] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:57:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:57:53] [Sound Library Loader/INFO]: Sound engine started
-[20:57:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4109_cactusLeatherHelmet.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4109_cactusLeatherHelmet.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4111_cactusLeatherLeggings.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4111_cactusLeatherLeggings.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4112_cactusLeatherBoots.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4112_cactusLeatherBoots.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4110_cactusLeatherChestPlate.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4110_cactusLeatherChestPlate.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTickableTexture(TextureManager.java:71) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTextureMap(TextureManager.java:58) [TextureManager.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:593) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:57:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4109_cactusLeatherHelmet.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4109_cactusLeatherHelmet.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4111_cactusLeatherLeggings.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4111_cactusLeatherLeggings.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4112_cactusLeatherBoots.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4112_cactusLeatherBoots.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4110_cactusLeatherChestPlate.png
-java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4110_cactusLeatherChestPlate.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:653) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:596) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at GradleStart.bounce(GradleStart.java:107) [start/:?]
-	at GradleStart.startClient(GradleStart.java:100) [start/:?]
-	at GradleStart.main(GradleStart.java:65) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:57:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:57:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:57:56] [Sound Library Loader/INFO]: Sound engine started
-[20:58:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:58:02] [Server thread/INFO]: Generating keypair
-[20:58:03] [Server thread/INFO]: Preparing start region for level 0
-[20:58:04] [Server thread/INFO]: Changing view distance to 8, from 10
-[20:58:08] [Server thread/INFO]: Stopping server
-[20:58:08] [Server thread/INFO]: Saving players
-[20:58:08] [Server thread/INFO]: Saving worlds
-[20:58:08] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:58:08] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:58:08] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:58:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:58:09] [Server thread/INFO]: Generating keypair
-[20:58:09] [Server thread/INFO]: Preparing start region for level 0
-[20:58:09] [Server thread/INFO]: Changing view distance to 8, from 10
-[20:58:10] [Server thread/INFO]: the_cube_man69[local:E:d7174179] logged in with entity id 370 at (-842.8609970610426, 4.304213417929743, -374.6035398787276)
-[20:58:10] [Server thread/INFO]: the_cube_man69 joined the game
-[20:58:27] [Server thread/INFO]: Saving and pausing game...
-[20:58:27] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:58:27] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:58:27] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:58:28] [Server thread/INFO]: Stopping server
-[20:58:28] [Server thread/INFO]: Saving players
-[20:58:28] [Server thread/INFO]: Saving worlds
-[20:58:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:58:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:58:28] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:58:29] [Client thread/INFO]: Stopping!
+[20:55:42] [main/INFO]: Logging in with username & password
+[20:55:45] [main/INFO]: Setting user: the_cube_man69
+[20:55:47] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:55:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[20:55:55] [Sound Library Loader/INFO]: Sound engine started
+[20:55:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:55:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[20:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:55:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:55:58] [Sound Library Loader/INFO]: Sound engine started
+[20:56:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[20:56:14] [Server thread/INFO]: Generating keypair
+[20:56:15] [Server thread/INFO]: Preparing start region for level 0
+[20:56:16] [Server thread/INFO]: Changing view distance to 8, from 10
+[20:56:16] [Server thread/INFO]: the_cube_man69[local:E:1d30d55b] logged in with entity id 242 at (-839.6445527161586, 4.0, -336.0212445782477)
+[20:56:16] [Server thread/INFO]: the_cube_man69 joined the game
+[20:56:28] [Server thread/INFO]: Saving and pausing game...
+[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[20:56:39] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[20:56:40] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[20:56:40] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:56:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:56:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:57:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:57:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:57:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:57:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:57:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:58:01] [Server thread/INFO]: Saving and pausing game...
+[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[20:59:00] [Server thread/INFO]: Stopping server
+[20:59:00] [Server thread/INFO]: Saving players
+[20:59:00] [Server thread/INFO]: Saving worlds
+[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[20:59:01] [Client thread/INFO]: Stopping!

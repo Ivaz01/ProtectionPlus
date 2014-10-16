@@ -1,13 +1,11 @@
 package com.the_cube_man69.protectionplus.item;
 
+import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.init.ModItems;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.enchantment.Enchantment;
+import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class ItemCactusLeatherArmor extends ItemArmor
 {
@@ -16,6 +14,7 @@ public class ItemCactusLeatherArmor extends ItemArmor
     public ItemCactusLeatherArmor(ArmorMaterial armorMaterial, int renderIndex, int armourType)
     {
         super(armorMaterial, renderIndex, armourType);
+        this.setCreativeTab(CreativeTabProPlus.ProPlus_TAB);
     }
 
     @Override
@@ -32,9 +31,16 @@ public class ItemCactusLeatherArmor extends ItemArmor
         }
     }
 
-    public void onCrafting(ItemStack itemStack)
+    @Override
+    public void registerIcons(IIconRegister reg)
     {
-        ItemStack ChestPlate = new ItemStack(ModItems.cactusLeatherChestPlate);
-        ChestPlate.addEnchantment(Enchantment.thorns, 5);
+        if(this == ModItems.cactusLeatherHelmet)
+            this.itemIcon = reg.registerIcon("protectionplus:cactusLeatherHelmet");
+        if(this == ModItems.cactusLeatherChestPlate)
+            this.itemIcon = reg.registerIcon("protectionplus:cactusLeatherChestPlate");
+        if(this == ModItems.cactusLeatherLeggings)
+            this.itemIcon = reg.registerIcon("protectionplus:cactusLeatherLeggings");
+        if(this == ModItems.cactusLeatherBoots)
+            this.itemIcon = reg.registerIcon("protectionplus:cactusLeatherBoots");
     }
 }
