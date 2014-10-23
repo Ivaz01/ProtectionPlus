@@ -1,42 +1,61 @@
-[20:55:42] [main/INFO]: Logging in with username & password
-[20:55:45] [main/INFO]: Setting user: the_cube_man69
-[20:55:47] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:55:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:55:55] [Sound Library Loader/INFO]: Sound engine started
-[20:55:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:55:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
-[20:55:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:55:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:55:58] [Sound Library Loader/INFO]: Sound engine started
-[20:56:14] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:56:14] [Server thread/INFO]: Generating keypair
-[20:56:15] [Server thread/INFO]: Preparing start region for level 0
-[20:56:16] [Server thread/INFO]: Changing view distance to 8, from 10
-[20:56:16] [Server thread/INFO]: the_cube_man69[local:E:1d30d55b] logged in with entity id 242 at (-839.6445527161586, 4.0, -336.0212445782477)
-[20:56:16] [Server thread/INFO]: the_cube_man69 joined the game
-[20:56:28] [Server thread/INFO]: Saving and pausing game...
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:56:39] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
-[20:56:40] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
-[20:56:40] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[20:56:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:56:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:57:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:57:12] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:57:13] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:57:14] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:57:47] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
-[20:58:01] [Server thread/INFO]: Saving and pausing game...
-[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:58:01] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:59:00] [Server thread/INFO]: Stopping server
-[20:59:00] [Server thread/INFO]: Saving players
-[20:59:00] [Server thread/INFO]: Saving worlds
-[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
-[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
-[20:59:00] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
-[20:59:01] [Client thread/INFO]: Stopping!
+[19:52:01] [main/INFO]: Logging in with username & password
+[19:52:07] [main/INFO]: Setting user: the_cube_man69
+[19:52:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:52:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[19:52:17] [Sound Library Loader/INFO]: Sound engine started
+[19:52:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:52:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:52:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Protection Plus
+[19:52:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:52:19] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:52:20] [Sound Library Loader/INFO]: Sound engine started
+[19:52:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:52:31] [Server thread/INFO]: Generating keypair
+[19:52:32] [Server thread/INFO]: Preparing start region for level 0
+[19:52:32] [Server thread/INFO]: Changing view distance to 8, from 10
+[19:52:33] [Server thread/INFO]: the_cube_man69[local:E:2f7b22c0] logged in with entity id 245 at (-877.6485488383044, 4.0, -357.8974549416756)
+[19:52:33] [Server thread/INFO]: the_cube_man69 joined the game
+[19:53:20] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:53:21] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[19:53:21] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[19:53:24] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:53:25] [Server thread/INFO]: [the_cube_man69: Set own game mode to Creative Mode]
+[19:53:25] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[19:53:41] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:53:43] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[19:53:43] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[19:54:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[19:54:39] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[19:55:28] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[19:55:30] [Server thread/INFO]: [the_cube_man69: Set own game mode to Creative Mode]
+[19:55:30] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:00:10] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[20:00:11] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[20:00:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:00:46] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[20:00:47] [Server thread/INFO]: [the_cube_man69: Set own game mode to Adventure Mode]
+[20:00:47] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:00:49] [Server thread/INFO]: [the_cube_man69: Set own game mode to Creative Mode]
+[20:00:49] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:00:57] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[20:00:58] [Server thread/INFO]: [the_cube_man69: Set own game mode to Survival Mode]
+[20:00:58] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[20:01:02] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:05] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:07] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:09] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:11] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:18] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:19] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:20] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:mob.attack
+[20:01:32] [Server thread/INFO]: Saving and pausing game...
+[20:01:32] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[20:01:32] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[20:01:32] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[20:01:33] [Server thread/INFO]: Stopping server
+[20:01:33] [Server thread/INFO]: Saving players
+[20:01:33] [Server thread/INFO]: Saving worlds
+[20:01:33] [Server thread/INFO]: Saving chunks for level 'Testering'/Overworld
+[20:01:33] [Server thread/INFO]: Saving chunks for level 'Testering'/Nether
+[20:01:33] [Server thread/INFO]: Saving chunks for level 'Testering'/The End
+[20:01:34] [Client thread/INFO]: Stopping!

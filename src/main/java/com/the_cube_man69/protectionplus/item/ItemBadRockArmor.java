@@ -59,8 +59,8 @@ public class ItemBadRockArmor extends ItemArmor
             if (helmet.getItem() == ModItems.badRockHelmet && plate.getItem() == ModItems.badRockChestPlate && leggings.getItem() == ModItems.badRockLeggings && boots.getItem() == ModItems.badRockBoots)
             {
                 player.addPotionEffect(new PotionEffect(Potion.moveSlowdown.getId(), 100, 3));
-                player.addPotionEffect(new PotionEffect(Potion.digSlowdown.getId(), 300, 3));
-                player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 100, 4));
+                player.addPotionEffect(new PotionEffect(Potion.digSlowdown.getId(), 100, 3));
+                player.addPotionEffect(new PotionEffect(Potion.damageBoost.getId(), 100, 3));
                 player.addPotionEffect(new PotionEffect(Potion.fireResistance.getId(), 30, 1));
             }
         }

@@ -20,6 +20,9 @@ public class ModItems
     public static ItemArmor.ArmorMaterial enumArmorMaterialBADROCK = EnumHelper.addArmorMaterial("BADROCK", 60, new int[] {6, 9, 8, 6}, 99);
     public static Item.ToolMaterial enumToolMaterialBADROCK = EnumHelper.addToolMaterial("BADROCK", 5, 8000, 20F, 10F, 99);
 
+
+    public static Item.ToolMaterial enumToolMaterialUnobtainium = EnumHelper.addToolMaterial("unobtainium", 5, 10000, 25F, 30F, 1);
+
     public static void mainRegistry()
     {
         initItems();
@@ -61,6 +64,12 @@ public class ModItems
     public static Item badRockShovel;
     public static Item badRockAxe;
     public static Item badRockHoe;
+    public static Item unobtainiumIngot;
+    public static Item unobtainiumSword;
+    public static Item unobtainumPickAxe;
+    public static Item unobtainumShovel;
+    public static Item unobtainiumAxe;
+    public static Item unobtainiumHoe;
 
     public static void initItems()
     {
@@ -105,6 +114,12 @@ public class ModItems
         badRockShovel = new ItemBadRockShovel(enumToolMaterialBADROCK);
         badRockAxe = new ItemBadRockAxe(enumToolMaterialBADROCK);
         badRockHoe = new ItemBadRockHoe(enumToolMaterialBADROCK);
+        unobtainiumIngot = new ItemUnobtainiumIngot();
+        unobtainiumSword = new ItemUnobtainiumSword(enumToolMaterialUnobtainium);
+        unobtainumPickAxe = new ItemUnobtainiumPickAxe(enumToolMaterialUnobtainium);
+        unobtainumShovel = new ItemUnobtainiumShovel(enumToolMaterialUnobtainium);
+        unobtainiumAxe = new ItemUnobtainiumAxe(enumToolMaterialUnobtainium);
+        unobtainiumHoe = new ItemUnobtainiumHoe(enumToolMaterialUnobtainium);
     }
 
     public static void registerItems()
@@ -144,5 +159,11 @@ public class ModItems
         GameRegistry.registerItem(badRockShovel, "badRockShovel");
         GameRegistry.registerItem(badRockAxe, "badRockAxe");
         GameRegistry.registerItem(badRockHoe, "badRockHoe");
+        GameRegistry.registerItem(unobtainiumIngot, "unobtainiumIngot");
+        GameRegistry.registerItem(unobtainiumSword, "unobtainiumSword");
+        GameRegistry.registerItem(unobtainumPickAxe, "unobtainiumPickAxe");
+        GameRegistry.registerItem(unobtainumShovel, "unobtainiumShovel");
+        GameRegistry.registerItem(unobtainiumAxe, "unobtainiumAxe");
+        GameRegistry.registerItem(unobtainiumHoe, "unobtainiumHoe");
     }
 }
