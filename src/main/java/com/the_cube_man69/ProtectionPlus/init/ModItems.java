@@ -11,17 +11,28 @@ import net.minecraftforge.common.util.EnumHelper;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
+    //Bronze//
     public static Item.ToolMaterial enumToolMaterialBronze = EnumHelper.addToolMaterial("Bronze", 2, 200, 4.5F, 1.0F, 9);
     public static ItemArmor.ArmorMaterial enumArmorMaterialBronze = EnumHelper.addArmorMaterial("bronze", 12, new int[] {2, 6, 5, 2}, 9);
 
+    //obsidian//
     public static ItemArmor.ArmorMaterial enumArmorMaterialObsidian = EnumHelper.addArmorMaterial("obsidian", 40, new int[] {3, 8, 6, 4}, 3);
     public static Item.ToolMaterial enumToolMaterialObsidian = EnumHelper.addToolMaterial("obsidian", 4, 4000, 19F, 4.5F, 30);
 
+    //BADROCk//
     public static ItemArmor.ArmorMaterial enumArmorMaterialBADROCK = EnumHelper.addArmorMaterial("BADROCK", 60, new int[] {6, 9, 8, 6}, 99);
     public static Item.ToolMaterial enumToolMaterialBADROCK = EnumHelper.addToolMaterial("BADROCK", 5, 8000, 20F, 10F, 99);
 
+    //Unobtainium//
+    public static ItemArmor.ArmorMaterial enumArmorMaterialUnobtainium = EnumHelper.addArmorMaterial("unobtainium", 100, new int[]{7, 10, 9, 7}, 1);
+    public static Item.ToolMaterial enumToolMaterialUnobtainium = EnumHelper.addToolMaterial("unobtainium", 5, 10000, 25F, 20F, 1);
 
-    public static Item.ToolMaterial enumToolMaterialUnobtainium = EnumHelper.addToolMaterial("unobtainium", 5, 10000, 25F, 30F, 1);
+    //paper//
+    public static ItemArmor.ArmorMaterial enumArmorMaterialPaper = EnumHelper.addArmorMaterial("unobtainium", 35, new int[]{3, 7, 5, 3}, 90);
+
+
+    //dirt//
+    public static ItemArmor.ArmorMaterial enumArmorMaterialDirt = EnumHelper.addArmorMaterial("dirt", 10, new int[]{1, 4, 3, 1}, 1);
 
     public static void mainRegistry()
     {
@@ -70,14 +81,28 @@ public class ModItems
     public static Item unobtainumShovel;
     public static Item unobtainiumAxe;
     public static Item unobtainiumHoe;
+    public static Item unobtainiumHelmet;
+    public static Item unobtainiumChestPlate;
+    public static Item unobtainiumLeggings;
+    public static Item unobtainiumBoots;
+    public static Item paperHelmet;
+    public static Item paperChestPlate;
+    public static Item paperLeggings;
+    public static Item paperBoots;
+    public static Item dirtHelmet;
+    public static Item dirtChestPlate;
+    public static Item dirtLeggings;
+    public static Item dirtBoots;
 
     public static void initItems()
     {
-
         RenderingRegistry.addNewArmourRendererPrefix("5");
         RenderingRegistry.addNewArmourRendererPrefix("6");
         RenderingRegistry.addNewArmourRendererPrefix("7");
         RenderingRegistry.addNewArmourRendererPrefix("8");
+        RenderingRegistry.addNewArmourRendererPrefix("9");
+        RenderingRegistry.addNewArmourRendererPrefix("10");
+        RenderingRegistry.addNewArmourRendererPrefix("11");
 
         cactusLeather= new ItemCactusLeather();
         copperIngot = new ItemCopperIngot();
@@ -120,6 +145,18 @@ public class ModItems
         unobtainumShovel = new ItemUnobtainiumShovel(enumToolMaterialUnobtainium);
         unobtainiumAxe = new ItemUnobtainiumAxe(enumToolMaterialUnobtainium);
         unobtainiumHoe = new ItemUnobtainiumHoe(enumToolMaterialUnobtainium);
+        unobtainiumHelmet = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 0).setUnlocalizedName("unobtainiumHelmet");
+        unobtainiumChestPlate = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 1).setUnlocalizedName("unobtainiumChestPlate");
+        unobtainiumLeggings = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 2).setUnlocalizedName("unobtainiumLeggings");
+        unobtainiumBoots = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 3).setUnlocalizedName("unobtainiumBoots");
+        paperHelmet = new ItemPaperArmor(enumArmorMaterialPaper, 10, 0).setUnlocalizedName("paperHelmet");
+        paperChestPlate = new ItemPaperArmor(enumArmorMaterialPaper, 10, 1).setUnlocalizedName("paperChestPlate");
+        paperLeggings = new ItemPaperArmor(enumArmorMaterialPaper, 10, 2).setUnlocalizedName("paperLeggings");
+        paperBoots = new ItemPaperArmor(enumArmorMaterialPaper, 10, 3).setUnlocalizedName("paperBoots");
+        dirtHelmet = new ItemDirtArmor(enumArmorMaterialDirt, 11, 0).setUnlocalizedName("dirtHelmet");
+        dirtChestPlate = new ItemDirtArmor(enumArmorMaterialDirt, 11, 1).setUnlocalizedName("dirtChestPlate");
+        dirtLeggings = new ItemDirtArmor(enumArmorMaterialDirt, 11, 2).setUnlocalizedName("dirtLeggings");
+        dirtBoots = new ItemDirtArmor(enumArmorMaterialDirt, 11, 3).setUnlocalizedName("dirtBoots");
     }
 
     public static void registerItems()
@@ -165,5 +202,17 @@ public class ModItems
         GameRegistry.registerItem(unobtainumShovel, "unobtainiumShovel");
         GameRegistry.registerItem(unobtainiumAxe, "unobtainiumAxe");
         GameRegistry.registerItem(unobtainiumHoe, "unobtainiumHoe");
+        GameRegistry.registerItem(unobtainiumHelmet, "unobtainiumHelmet");
+        GameRegistry.registerItem(unobtainiumChestPlate, "unobtainiumChestPlate");
+        GameRegistry.registerItem(unobtainiumLeggings, "unobtainiumLeggings");
+        GameRegistry.registerItem(unobtainiumBoots, "unobtainiumBoots");
+        GameRegistry.registerItem(paperHelmet, "paperHelmet");
+        GameRegistry.registerItem(paperChestPlate, "paperChestPlate");
+        GameRegistry.registerItem(paperLeggings, "paperLeggings");
+        GameRegistry.registerItem(paperBoots, "paperBoots");
+        GameRegistry.registerItem(dirtHelmet, "dirtHelmet");
+        GameRegistry.registerItem(dirtChestPlate, "dirtChsetPlate");
+        GameRegistry.registerItem(dirtLeggings, "dirtLeggings");
+        GameRegistry.registerItem(dirtBoots, "dirtBoots");
     }
 }

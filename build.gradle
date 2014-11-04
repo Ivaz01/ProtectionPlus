@@ -19,10 +19,10 @@ apply plugin: 'forge'
 
 version = "1.7.10-1.0"
 group= "com.the_cube_man69.protectionplus" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "protectionplus"
+archivesBaseName = "ProtectionPlus"
 
 minecraft {
-    version = "1.7.10-10.13.0.1180"
+    version = "1.7.10-10.13.2.1232"
     assetDir = "eclipse/assets"
 }
 
