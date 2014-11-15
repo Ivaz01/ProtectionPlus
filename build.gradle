@@ -22,7 +22,7 @@ group= "com.the_cube_man69.protectionplus" // http://maven.apache.org/guides/min
 archivesBaseName = "ProtectionPlus"
 
 minecraft {
-    version = "1.7.10-10.13.2.1232"
+    version = "1.7.10-10.13.2.1235"
     assetDir = "eclipse/assets"
 }
 

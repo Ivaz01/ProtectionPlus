@@ -4,8 +4,7 @@ import com.the_cube_man69.protectionplus.item.*;
 import com.the_cube_man69.protectionplus.reference.Reference;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
+import net.minecraft.item.*;
 import net.minecraftforge.common.util.EnumHelper;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -28,11 +27,15 @@ public class ModItems
     public static Item.ToolMaterial enumToolMaterialUnobtainium = EnumHelper.addToolMaterial("unobtainium", 5, 10000, 25F, 20F, 1);
 
     //paper//
-    public static ItemArmor.ArmorMaterial enumArmorMaterialPaper = EnumHelper.addArmorMaterial("unobtainium", 35, new int[]{3, 7, 5, 3}, 90);
+    public static ItemArmor.ArmorMaterial enumArmorMaterialPaper = EnumHelper.addArmorMaterial("paper", 35, new int[]{3, 7, 5, 3}, 90);
 
 
     //dirt//
     public static ItemArmor.ArmorMaterial enumArmorMaterialDirt = EnumHelper.addArmorMaterial("dirt", 10, new int[]{1, 4, 3, 1}, 1);
+
+    //emerald//
+    public static ItemArmor.ArmorMaterial enumArmorMaterialEmerald = EnumHelper.addArmorMaterial("emerald", 45, new int[]{4, 8, 6, 4}, 15);
+    public static Item.ToolMaterial enumToolMaterialEmerald = EnumHelper.addToolMaterial("emerald", 4, 1500, 7F, 10F, 15);
 
     public static void mainRegistry()
     {
@@ -93,6 +96,15 @@ public class ModItems
     public static Item dirtChestPlate;
     public static Item dirtLeggings;
     public static Item dirtBoots;
+    public static Item emeraldHelmet;
+    public static Item emeraldChestPlate;
+    public static Item emeraldLeggings;
+    public static Item emeraldBoots;
+    public static Item emeraldSword;
+    public static Item emeraldPickAxe;
+    public static Item emeraldShovel;
+    public static Item emeraldAxe;
+    public static Item emeraldHoe;
 
     public static void initItems()
     {
@@ -103,16 +115,17 @@ public class ModItems
         RenderingRegistry.addNewArmourRendererPrefix("9");
         RenderingRegistry.addNewArmourRendererPrefix("10");
         RenderingRegistry.addNewArmourRendererPrefix("11");
+        RenderingRegistry.addNewArmourRendererPrefix("12");
 
-        cactusLeather= new ItemCactusLeather();
-        copperIngot = new ItemCopperIngot();
-        tinIngot = new ItemTinIngot();
-        bronzeIngot = new ItemBronzeIngot();
-        bronzeSword = new ItemBronzeSword(enumToolMaterialBronze);
-        bronzePickAxe = new ItemBronzePickAxe(enumToolMaterialBronze);
-        bronzeAxe = new ItemBronzeAxe(enumToolMaterialBronze);
-        bronzeShovel = new ItemBronzeShovel(enumToolMaterialBronze);
-        bronzeHoe = new ItemBronzeHoe(enumToolMaterialBronze);
+        cactusLeather= new ItemProPlus().setUnlocalizedName("cactusLeather");
+        copperIngot = new ItemProPlus().setUnlocalizedName("copperIngot");
+        tinIngot = new ItemProPlus().setUnlocalizedName("tinIngot");
+        bronzeIngot = new ItemProPlus().setUnlocalizedName("bronzeIngot");
+        bronzeSword = new ItemProPlusSword(enumToolMaterialBronze).setUnlocalizedName("bronzeSword");
+        bronzePickAxe = new ItemProPlusPickAxe(enumToolMaterialBronze).setUnlocalizedName("bronzePickAxe");
+        bronzeAxe = new ItemProPlusAxe(enumToolMaterialBronze).setUnlocalizedName("bronzeAxe");
+        bronzeShovel = new ItemProPlusShovel(enumToolMaterialBronze).setUnlocalizedName("bronzeShovel");
+        bronzeHoe = new ItemProPlusHoe(enumToolMaterialBronze).setUnlocalizedName("bronzeHoe");
         bronzeHelmet = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 0).setUnlocalizedName("bronzeHelmet");
         bronzeChestPlate = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 1).setUnlocalizedName("bronzeChestPlate");
         bronzeLeggings = new ItemBronzeArmor(enumArmorMaterialBronze, 5, 2).setUnlocalizedName("bronzeLeggings");
@@ -125,26 +138,26 @@ public class ModItems
         obsidianChestPlate = new ItemObsidianArmor(enumArmorMaterialObsidian,7,1).setUnlocalizedName("obsidianChestPlate");
         obsidianLeggings = new ItemObsidianArmor(enumArmorMaterialObsidian,7,2).setUnlocalizedName("obsidianLeggings");
         obsidianBoots = new ItemObsidianArmor(enumArmorMaterialObsidian,7,3).setUnlocalizedName("obsidianBoots");
-        obsidianSword = new ItemObsidianSword(enumToolMaterialObsidian);
-        obsidianPickAxe = new ItemObsidianPickAxe(enumToolMaterialObsidian);
-        obsidianShovel = new ItemObsidianShovel(enumToolMaterialObsidian);
-        obsidianAxe = new ItemObsidianAxe(enumToolMaterialObsidian);
-        obsidianHoe = new ItemObsidianHoe(enumToolMaterialObsidian);
+        obsidianSword = new ItemProPlusSword(enumToolMaterialObsidian).setUnlocalizedName("obsidianSword");
+        obsidianPickAxe = new ItemProPlusPickAxe(enumToolMaterialObsidian).setUnlocalizedName("obsidianPickAxe");
+        obsidianShovel = new ItemProPlusShovel(enumToolMaterialObsidian).setUnlocalizedName("obsidianShovel");
+        obsidianAxe = new ItemProPlusAxe(enumToolMaterialObsidian).setUnlocalizedName("obsidianAxe");
+        obsidianHoe = new ItemProPlusHoe(enumToolMaterialObsidian).setUnlocalizedName("obsidianHoe");
         badRockHelmet = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 0).setUnlocalizedName("badRockHelmet");
         badRockChestPlate = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 1).setUnlocalizedName("badRockChestPlate");
         badRockLeggings = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 2).setUnlocalizedName("badRockLeggings");
         badRockBoots = new ItemBadRockArmor(enumArmorMaterialBADROCK, 8, 3).setUnlocalizedName("badRockBoots");
-        badRockSword = new ItemBadRockSword(enumToolMaterialBADROCK);
-        badRockPickAxe = new ItemBadRockPickAxe(enumToolMaterialBADROCK);
-        badRockShovel = new ItemBadRockShovel(enumToolMaterialBADROCK);
-        badRockAxe = new ItemBadRockAxe(enumToolMaterialBADROCK);
-        badRockHoe = new ItemBadRockHoe(enumToolMaterialBADROCK);
-        unobtainiumIngot = new ItemUnobtainiumIngot();
-        unobtainiumSword = new ItemUnobtainiumSword(enumToolMaterialUnobtainium);
-        unobtainumPickAxe = new ItemUnobtainiumPickAxe(enumToolMaterialUnobtainium);
-        unobtainumShovel = new ItemUnobtainiumShovel(enumToolMaterialUnobtainium);
-        unobtainiumAxe = new ItemUnobtainiumAxe(enumToolMaterialUnobtainium);
-        unobtainiumHoe = new ItemUnobtainiumHoe(enumToolMaterialUnobtainium);
+        badRockSword = new ItemProPlusSword(enumToolMaterialBADROCK).setUnlocalizedName("badRockSword");
+        badRockPickAxe = new ItemProPlusPickAxe(enumToolMaterialBADROCK).setUnlocalizedName("badRockPickAxe");
+        badRockShovel = new ItemProPlusShovel(enumToolMaterialBADROCK).setUnlocalizedName("badRockShovel");
+        badRockAxe = new ItemProPlusAxe(enumToolMaterialBADROCK).setUnlocalizedName("badRockAxe");
+        badRockHoe = new ItemProPlusHoe(enumToolMaterialBADROCK).setUnlocalizedName("badRockHoe");
+        unobtainiumIngot = new ItemProPlus().setUnlocalizedName("unobtainiumIngot");
+        unobtainiumSword = new ItemProPlusSword(enumToolMaterialUnobtainium).setUnlocalizedName("unobtainiumSword");
+        unobtainumPickAxe = new ItemProPlusPickAxe(enumToolMaterialUnobtainium).setUnlocalizedName("unobtainiumPickAxe");
+        unobtainumShovel = new ItemProPlusShovel(enumToolMaterialUnobtainium).setUnlocalizedName("unobtainiumShovel");
+        unobtainiumAxe = new ItemProPlusAxe(enumToolMaterialUnobtainium).setUnlocalizedName("unobtainiumAxe");
+        unobtainiumHoe = new ItemProPlusHoe(enumToolMaterialUnobtainium).setUnlocalizedName("unobtainiumHoe");
         unobtainiumHelmet = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 0).setUnlocalizedName("unobtainiumHelmet");
         unobtainiumChestPlate = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 1).setUnlocalizedName("unobtainiumChestPlate");
         unobtainiumLeggings = new ItemUnobtainiumArmor(enumArmorMaterialUnobtainium, 9, 2).setUnlocalizedName("unobtainiumLeggings");
@@ -157,6 +170,15 @@ public class ModItems
         dirtChestPlate = new ItemDirtArmor(enumArmorMaterialDirt, 11, 1).setUnlocalizedName("dirtChestPlate");
         dirtLeggings = new ItemDirtArmor(enumArmorMaterialDirt, 11, 2).setUnlocalizedName("dirtLeggings");
         dirtBoots = new ItemDirtArmor(enumArmorMaterialDirt, 11, 3).setUnlocalizedName("dirtBoots");
+        emeraldHelmet = new ItemEmeraldArmor(enumArmorMaterialEmerald, 12, 0).setUnlocalizedName("emeraldHelmet");
+        emeraldChestPlate = new ItemEmeraldArmor(enumArmorMaterialEmerald, 12, 1).setUnlocalizedName("emeraldChestPlate");
+        emeraldLeggings = new ItemEmeraldArmor(enumArmorMaterialEmerald, 12, 2).setUnlocalizedName("emeraldLeggings");
+        emeraldBoots = new ItemEmeraldArmor(enumArmorMaterialEmerald, 12, 3).setUnlocalizedName("emeraldBoots");
+        emeraldSword = new ItemProPlusSword(enumToolMaterialEmerald).setUnlocalizedName("emeraldSword");
+        emeraldPickAxe = new ItemProPlusPickAxe(enumToolMaterialEmerald).setUnlocalizedName("emeraldPickAxe");
+        emeraldShovel = new ItemProPlusShovel(enumToolMaterialEmerald).setUnlocalizedName("emeraldShovel");
+        emeraldAxe = new ItemProPlusAxe(enumToolMaterialEmerald).setUnlocalizedName("emeraldAxe");
+        emeraldHoe = new ItemProPlusHoe(enumToolMaterialEmerald).setUnlocalizedName("emeraldHoe");
     }
 
     public static void registerItems()
@@ -214,5 +236,14 @@ public class ModItems
         GameRegistry.registerItem(dirtChestPlate, "dirtChsetPlate");
         GameRegistry.registerItem(dirtLeggings, "dirtLeggings");
         GameRegistry.registerItem(dirtBoots, "dirtBoots");
+        GameRegistry.registerItem(emeraldHelmet, "emeraldHelmet");
+        GameRegistry.registerItem(emeraldChestPlate, "emeraldChestPlate");
+        GameRegistry.registerItem(emeraldLeggings, "emeraldLeggings");
+        GameRegistry.registerItem(emeraldBoots, "emeraldBoots");
+        GameRegistry.registerItem(emeraldSword, "emeraldSword");
+        GameRegistry.registerItem(emeraldPickAxe, "emeraldPickAxe");
+        GameRegistry.registerItem(emeraldShovel, "emeraldShovel");
+        GameRegistry.registerItem(emeraldAxe, "emeraldAxe");
+        GameRegistry.registerItem(emeraldHoe, "emeraldHoe");
     }
 }

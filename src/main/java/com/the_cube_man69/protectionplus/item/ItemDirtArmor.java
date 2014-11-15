@@ -2,6 +2,7 @@ package com.the_cube_man69.protectionplus.item;
 
 import com.the_cube_man69.protectionplus.creativetab.CreativeTabProPlus;
 import com.the_cube_man69.protectionplus.init.ModItems;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
