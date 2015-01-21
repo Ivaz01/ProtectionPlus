@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-1.0"
+version = "1.7.10-1.2"
 group= "com.the_cube_man69.protectionplus" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ProtectionPlus"
 
 minecraft {
-    version = "1.7.10-10.13.2.1235"
+    version = "1.7.10-10.13.2.1258"
     assetDir = "eclipse/assets"
 }
 

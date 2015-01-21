@@ -22,12 +22,12 @@ public class ItemCactusLeatherArmor extends ItemArmor
     {
         if(stack.getItem().equals(ModItems.cactusLeatherHelmet)|| stack.getItem().equals(ModItems.cactusLeatherChestPlate)|| stack.getItem().equals(ModItems.cactusLeatherBoots))
         {
-            return "protectionplus:textures/armor/CactusLeather_1.png";
+            return "protectionplus:textures/armor/cactusLeather_1.png";
         }
 
         if(stack.getItem().equals(ModItems.cactusLeatherLeggings));
         {
-            return "protectionplus:textures/armor/CactusLeather_2.png";
+            return "protectionplus:textures/armor/cactusLeather_2.png";
         }
     }
 

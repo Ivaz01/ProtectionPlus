@@ -37,7 +37,7 @@ public class Recipes
         GameRegistry.addShapedRecipe(enchanted, new Object[]{"ccc", "c c", "   ", 'c', new ItemStack(ModItems.cactusLeather)});
 
         ItemStack enchanted1 = new ItemStack(ModItems.cactusLeatherChestPlate);
-        enchanted.addEnchantment(Enchantment.thorns, 3);
+        enchanted1.addEnchantment(Enchantment.thorns, 3);
 
         GameRegistry.addShapedRecipe(enchanted1, new Object[]{"c c", "ccc", "ccc", 'c', new ItemStack(ModItems.cactusLeather)}
         );
@@ -67,7 +67,7 @@ public class Recipes
 
         //BadRock Tools//
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.badRockSword), "b", "b", "d", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));
-        GameRegistry.addShapedRecipe(new ItemStack(ModItems.bronzePickAxe), "bbb", " d ", " d ", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.badRockPickAxe), "bbb", " d ", " d ", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.badRockShovel), "b", "d", "d", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.badRockAxe), "bb ", "bd ", " d ", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.badRockHoe), "bb ", " d ", " d ", 'b', new ItemStack(ModBlocks.badRock), 'd', new ItemStack(Items.diamond));

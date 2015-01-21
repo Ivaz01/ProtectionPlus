@@ -37,6 +37,9 @@ public class ModItems
     public static ItemArmor.ArmorMaterial enumArmorMaterialEmerald = EnumHelper.addArmorMaterial("emerald", 45, new int[]{4, 8, 6, 4}, 15);
     public static Item.ToolMaterial enumToolMaterialEmerald = EnumHelper.addToolMaterial("emerald", 4, 1500, 7F, 10F, 15);
 
+    //plank//
+    public static ItemArmor.ArmorMaterial enumArmorMaterialPlank = EnumHelper.addArmorMaterial("plank", 10, new int[]{2, 4, 3, 2}, 10);
+
     public static void mainRegistry()
     {
         initItems();
@@ -105,6 +108,10 @@ public class ModItems
     public static Item emeraldShovel;
     public static Item emeraldAxe;
     public static Item emeraldHoe;
+    public static Item plankHelmet;
+    public static Item plankChestPlate;
+    public static Item plankLeggings;
+    public static Item plankBoots;
 
     public static void initItems()
     {
@@ -116,6 +123,7 @@ public class ModItems
         RenderingRegistry.addNewArmourRendererPrefix("10");
         RenderingRegistry.addNewArmourRendererPrefix("11");
         RenderingRegistry.addNewArmourRendererPrefix("12");
+        RenderingRegistry.addNewArmourRendererPrefix("13");
 
         cactusLeather= new ItemProPlus().setUnlocalizedName("cactusLeather");
         copperIngot = new ItemProPlus().setUnlocalizedName("copperIngot");
@@ -179,6 +187,10 @@ public class ModItems
         emeraldShovel = new ItemProPlusShovel(enumToolMaterialEmerald).setUnlocalizedName("emeraldShovel");
         emeraldAxe = new ItemProPlusAxe(enumToolMaterialEmerald).setUnlocalizedName("emeraldAxe");
         emeraldHoe = new ItemProPlusHoe(enumToolMaterialEmerald).setUnlocalizedName("emeraldHoe");
+        plankHelmet = new ItemPlankArmor(enumArmorMaterialPlank, 13, 0).setUnlocalizedName("plankHelmet");
+        plankChestPlate = new ItemPlankArmor(enumArmorMaterialPlank, 13, 1).setUnlocalizedName("plankChestPlate");
+        plankLeggings = new ItemPlankArmor(enumArmorMaterialPlank, 13, 2).setUnlocalizedName("plankLeggings");
+        plankBoots = new ItemPlankArmor(enumArmorMaterialPlank, 13, 3).setUnlocalizedName("plankLeggings");
     }
 
     public static void registerItems()
@@ -245,5 +257,9 @@ public class ModItems
         GameRegistry.registerItem(emeraldShovel, "emeraldShovel");
         GameRegistry.registerItem(emeraldAxe, "emeraldAxe");
         GameRegistry.registerItem(emeraldHoe, "emeraldHoe");
+        GameRegistry.registerItem(plankHelmet, "plankHelmet");
+        GameRegistry.registerItem(plankChestPlate, "plankChestPlate");
+        GameRegistry.registerItem(plankLeggings, "plankLeggings");
+        GameRegistry.registerItem(plankBoots, "plankBoots");
     }
 }

@@ -57,7 +57,10 @@ item.dirtHelmet.name=Dirt Helmet
 item.dirtChestPlate.name=Dirt Chestplate
 item.dirtLeggings.name=Dirt Leggings
 item.dirtBoots.name=Dirt Boots
-
+item.emeraldHelmet.name=Emerald Helmet
+item.emeraldChestPlate.name=Emerald Chestplate
+item.emeraldLeggings.name=Emerald Leggings
+item.emeraldBoots.name=Emerald Boots
 
 tile.protectionplus:potatoOre.name=Potato Ore
 tile.protectionplus:copperOre.name=Copper Ore
